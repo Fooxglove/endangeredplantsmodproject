@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    {
+      "when": { "north": "true", "blooming": "false" },
+      "apply": { "model": "endangeredplants:block/dendrobiumyoungblocknorth" }
+    },
+    {
+      "when": { "south": "true", "blooming": "false" },
+      "apply": { "model": "endangeredplants:block/dendrobiumyoungblocksouth" }
+    },
+    {
+      "when": { "east": "true", "blooming": "false" },
+      "apply": { "model": "endangeredplants:block/dendrobiumyoungblockeast" }
+    },
+    {
+      "when": { "west": "true", "blooming": "false" },
+      "apply": { "model": "endangeredplants:block/dendrobiumyoungblockwest" }
+    },
+    {
+      "when": { "north": "true", "blooming": "true" },
+      "apply": { "model": "endangeredplants:block/dendrobiumoldblocknorth" }
+    },
+    {
+      "when": { "south": "true", "blooming": "true" },
+      "apply": { "model": "endangeredplants:block/dendrobiumoldblocksouth" }
+    },
+    {
+      "when": { "east": "true", "blooming": "true" },
+      "apply": { "model": "endangeredplants:block/dendrobiumoldblockeast" }
+    },
+    {
+      "when": { "west": "true", "blooming": "true" },
+      "apply": { "model": "endangeredplants:block/dendrobiumoldblockwest" }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "variants": {
+    "distance=1,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=1,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=1,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=1,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=2,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=2,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=2,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=2,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=3,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=3,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=3,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=3,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=4,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=4,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=4,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=4,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=5,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=5,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=5,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=5,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=6,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=6,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=6,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=6,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=7,persistent=false,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=7,persistent=false,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    },
+    "distance=7,persistent=true,fruited=false": {
+      "model": "endangeredplants:block/yewleaves"
+    },
+    "distance=7,persistent=true,fruited=true": {
+      "model": "endangeredplants:block/yewleavesfruited"
+    }
+  }
+}

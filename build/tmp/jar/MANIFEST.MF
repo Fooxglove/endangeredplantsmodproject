@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Endangered Plants
+Specification-Vendor: Fooxglove
+Specification-Version: 1
+Implementation-Title: endangeredplants
+Implementation-Version: 1.0.0
+Implementation-Vendor: Fooxglove
+Implementation-Timestamp: 2025-08-03T23:02:50+0800
+

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": "endangeredplants:honghe_papeda_tree_placed",
+  "step": "vegetal_decoration"
+}

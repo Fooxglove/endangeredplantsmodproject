@@ -1,0 +1,25 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "vine": "endangeredplants:block/dendrobiumyoungblock",
+    "particle": "endangeredplants:block/dendrobiumyoungblock"
+  },
+  "elements": [
+    {
+      "from": [15.2, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "east": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#vine",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#vine",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

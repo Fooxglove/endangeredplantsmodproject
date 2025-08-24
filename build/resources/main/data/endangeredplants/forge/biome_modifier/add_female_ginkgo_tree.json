@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains"
+  ],
+  "features": "endangeredplants:female_ginkgo_tree_placed",
+  "step": "vegetal_decoration"
+}

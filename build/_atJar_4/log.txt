@@ -1,0 +1,7 @@
+Java Launcher: D:\Java17\bin\java.exe
+Arguments: '--inJar, C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.4\forge-1.20.1-47.4.4-injected.jar, --outJar, C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Yu Yikang\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.1\accesstransformers-8.2.1-fatjar.jar
+Working directory: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
