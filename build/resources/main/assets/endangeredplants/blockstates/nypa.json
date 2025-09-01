@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "fruited=false,fruitpos=none": {
+      "model": "endangeredplants:block/nypayoung"
+    },
+    "fruited=true,fruitpos=north": {
+      "model": "endangeredplants:block/nypaoldnorth"
+    },
+    "fruited=true,fruitpos=south": {
+      "model": "endangeredplants:block/nypaoldsouth"
+    },
+    "fruited=true,fruitpos=east": {
+      "model": "endangeredplants:block/nypaoldeast"
+    },
+    "fruited=true,fruitpos=west": {
+      "model": "endangeredplants:block/nypaoldwest"
+    },
+    "fruited=true,fruitpos=none": {
+      "model": "endangeredplants:block/nypaold"
+    }
+  }
+}

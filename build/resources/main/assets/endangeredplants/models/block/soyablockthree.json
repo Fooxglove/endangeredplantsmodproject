@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "endangeredplants:block/soyablockthree"
+  },
+  "render_type": "cutout"
+}

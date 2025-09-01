@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:beach",
+    "minecraft:snowy_beach"
+  ],
+  "features": "endangeredplants:glehnia_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:plains",
+  "features": "endangeredplants:wild_soya_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga"
+  ],
+  "features": "endangeredplants:yew_tree_placed",
+  "step": "vegetal_decoration"
+}

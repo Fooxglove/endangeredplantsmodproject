@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "endangeredplants:sandfritillariabulb"
+    }
+  ],
+  "result": {
+    "item": "endangeredplants:sandfritillariabuds",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:beach",
+    "minecraft:stony_shore",
+    "minecraft:snowy_beach"
+  ],
+  "features": "endangeredplants:coastal_rose_bush_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,915 @@
+Java Launcher: C:\Program Files\Java\jdk-17\bin\java.exe
+Arguments: '--input, C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\libs\endangeredplants-1.0.0.jar, --output, C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar\output.jar, --names, C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar\mappings.tsrg, --lib, C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1-recomp.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.4.4\8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\fmlloader-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.2.4\e30bab269d896613e38396274711410b3a0e4b87\coremods-5.2.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7.1\f97a3b319f0ed6a8cd944dc79060d3912a28985f\asm-analysis-9.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7.1\3a53139787663b139de76b627fca0084ab60d32c\asm-tree-9.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7.1\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\asm-9.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.4\55a693260a8a7b851c3531972ef997294c191b3e\fmlcore-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.4\2b323ecae7cc6ca7ccb466a63100790d59521dbc\fmlearlydisplay-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.4\c05c04093d241dea1d0f54782d19cfe5db9d0aac\javafmllanguage-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.4\8a8bd6d44f3f0e6a1145b9066eac84fdcfbe7108\lowcodelanguage-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.4\a8876f0a1a04237fc48a4a73692ea08e0443d2ba\mclanguage-1.20.1-47.4.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\Yu Yikang\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.6\ForgeAutoRenamingTool-1.0.6-all.jar
+Working directory: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.6
+lib: C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.4.4_mapped_parchment_2023.09.03-1.20.1-recomp.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.4.4\8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\fmlloader-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.2.4\e30bab269d896613e38396274711410b3a0e4b87\coremods-5.2.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7.1\f97a3b319f0ed6a8cd944dc79060d3912a28985f\asm-analysis-9.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7.1\3a53139787663b139de76b627fca0084ab60d32c\asm-tree-9.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7.1\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\asm-9.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.4\55a693260a8a7b851c3531972ef997294c191b3e\fmlcore-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.4\2b323ecae7cc6ca7ccb466a63100790d59521dbc\fmlearlydisplay-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.4\c05c04093d241dea1d0f54782d19cfe5db9d0aac\javafmllanguage-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.4\8a8bd6d44f3f0e6a1145b9066eac84fdcfbe7108\lowcodelanguage-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.4\a8876f0a1a04237fc48a4a73692ea08e0443d2ba\mclanguage-1.20.1-47.4.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\Yu Yikang\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\libs\endangeredplants-1.0.0.jar
+output: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar\output.jar
+threads: 16
+Names: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\libs\endangeredplants-1.0.0.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/state/BlockBehaviour/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushFloweredBlock$ThornyBushBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/state/BlockBehaviour/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock/getCloneItemStack(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/level/block/Block/getCloneItemStack(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;: getCloneItemStack -> m_7397_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushFloweredBlock$ThornyBushBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaGametophyteBlock$PlantBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaGametophyteBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaGametophyteBlock$PlantBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/CoastalRosebushFloweredBlock$ThornyBushBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaLog$1/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaLog$1/getCollisionShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getCollisionShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getCollisionShape -> m_5939_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaLog$1/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaLog$1/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for org/endangeredplants/block/BaishanzuFirSaplingBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/BaishanzuFirLeaves$BaishanzuLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/BaishanzuFirLeaves$BaishanzuLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/BaishanzuFirLeaves$BaishanzuLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/BaishanzuGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/minecraft/world/item/ShearsItem/interactLivingEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/interactLivingEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: interactLivingEntity -> m_6880_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaTop$PlantBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaTop$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaTop$PlantBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaTop$PlantBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/CyatheaTop$PlantBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/DendrobiumBlock$VineBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/FalseLitchiLeaves$FalseLitchiLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/FalseLitchiLeaves$FalseLitchiLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/FalseLitchiLeaves$FalseLitchiLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/FalseLitchiSeedlingBlock$SeedlingBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/FalseLitchiGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/LeavesBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoSaplingBlock$PlantBlock/advanceTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/SaplingBlock/advanceTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)V: advanceTree -> m_222000_
+Conflicting propagated mapping for org/endangeredplants/block/GinkgoSaplingBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/GlehniaBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/GlehniaBlock$PlantBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/MaleGinkgoGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/FemaleGinkgoGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaBlock/playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/level/block/Block/playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V: playerDestroy -> m_6240_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaBlock/getCollisionShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getCollisionShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getCollisionShape -> m_5939_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaLeaves$HonghePapedaLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaLeaves$HonghePapedaLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaLeaves$HonghePapedaLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/Kingdonia$PlantBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/Kingdonia$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/HonghePapedaSaplingBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/Kingdonia$PlantBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/HongheGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for org/endangeredplants/block/Nypa$FruitPosition/getSerializedName()Ljava/lang/String; from net/minecraft/util/StringRepresentable/getSerializedName()Ljava/lang/String;: getSerializedName -> m_7912_
+Conflicting propagated mapping for org/endangeredplants/block/Nypa$PlantBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/Nypa$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/NypaFruitBlock$FruitBlock/playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/level/block/Block/playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V: playerDestroy -> m_6240_
+Conflicting propagated mapping for org/endangeredplants/block/Nypa$PlantBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/NypaFruitBlock$FruitBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/Nypa$PlantBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/SandFritillariaBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/SoyaBlock$SoyaPlantBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/SoyaBlock$SoyaPlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/SoyaBlock$SoyaPlantBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/SoyaBlock$SoyaPlantBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity$2/get(I)I from net/minecraft/world/inventory/SimpleContainerData/get(I)I: get -> m_6413_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/BlockItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity$2/set(II)V from net/minecraft/world/inventory/SimpleContainerData/set(II)V: set -> m_8050_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker; from net/minecraft/world/level/block/EntityBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;: getTicker -> m_142354_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockItem/updateCustomBlockEntityTag(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/item/BlockItem/updateCustomBlockEntityTag(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)Z: updateCustomBlockEntityTag -> m_7274_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatBlock$KumquatBushBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatBlock$KumquatBushBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatBlock$KumquatBushBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatBlock$KumquatBushBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for org/endangeredplants/block/SpecimenPresser$SpecimenPresserMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/item/SpecimenBag$SpecimenBagItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for org/endangeredplants/item/SpecimenBag$SpecimenBagItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFruitedBlock$KumquatFruitedBushBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/WildKumquatFruitedBlock$KumquatFruitedBushBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/endangeredplants/block/WildSoyaBlock$SoyaBlock/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/level/block/Block/playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)V: playerWillDestroy -> m_5707_
+Conflicting propagated mapping for org/endangeredplants/block/YewLeaves$YewLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/YewLeaves$YewLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/YewLeaves$YewLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for org/endangeredplants/block/YewLeaves$YewLeavesBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/LeavesBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for org/endangeredplants/entity/FallingPapeda/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/item/FallingBlockEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
+Conflicting propagated mapping for org/endangeredplants/block/YewSaplingBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/entity/FallingPapeda/tick()V from net/minecraft/world/entity/item/FallingBlockEntity/tick()V: tick -> m_8119_
+Conflicting propagated mapping for org/endangeredplants/entity/FallingPapeda/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V from net/minecraft/world/entity/Entity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V: checkFallDamage -> m_7840_
+Conflicting propagated mapping for org/endangeredplants/entity/FallingPapeda/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/item/FallingBlockEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
+Conflicting propagated mapping for org/endangeredplants/entity/FallingPapeda/getBlockState()Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/entity/item/FallingBlockEntity/getBlockState()Lnet/minecraft/world/level/block/state/BlockState;: getBlockState -> m_31980_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/YewGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for org/endangeredplants/block/ZangnanCupressusLeaves$ZangnanCupressusLeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/LeavesBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for org/endangeredplants/block/ZangnanCupressusLeaves$ZangnanCupressusLeavesBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for org/endangeredplants/block/ZangnanCupressusLeaves$ZangnanCupressusLeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/LeavesBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for org/endangeredplants/block/ZangnanCupressusSaplingBlock$PlantBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for org/endangeredplants/worldgen/tree/ZangnanGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for org/endangeredplants/effect/HalluEffect$HalluMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for org/endangeredplants/effect/HalluEffect$HalluMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for org/endangeredplants/item/BaishanzuFirSapling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CoastalRoseBushWithoutRosehips$CoastalRoseBushWithoutHipsItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CoastalRoseBushWithRosehips$CoastalRoseBushItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CoastalRoseSeeds$RoseSeedsItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CoastalRoseSucker$RoseSuckerItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CyatheaGametophyte$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/CyatheaSporeBottle$CyatheaSporeBottleItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/Dendrobium$DendrobiumItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/client/gui/SpecimenPresserScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for org/endangeredplants/client/gui/SpecimenPresserScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for org/endangeredplants/client/gui/SpecimenPresserScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for org/endangeredplants/item/DendrobiumPolysaccha$1/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/FalseLitchi$FalseLitchiItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/FalseLitchiSeedling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/FalseLitchiStone$1/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/FalseLitchiStone$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/GinkgoCone$GinkgoConeItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/GinkgoSapling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/GinkgoPollenBottle$GinkgoPollenBottleItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/GinkgoSeed$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/Glehnia$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/GlehniaRoot$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/GlehniaSeeds$GlehniaSeedsItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/HonghePapeda$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/HonghePapedaSapling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/NypaFruit$NypaFruitItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/Paclitaxel$1/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/SandFritillariaBuds$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/SandFritillariaBulb$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/Soya$SoyaItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/SoyaMilk$1/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/SoyaZher$1/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/WildKumquat$WildKumquatItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/WildKumquatBush$WildKumquatBushItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/WildKumquatBushWithFlowers$WildKumquatBushWithFlowersItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/WildKumquatBushWithFruits$WildKumquatBushWithFruitsItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/WildSoya$WildSoyaItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/YewCone$YewConeItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for org/endangeredplants/item/YewSapling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/YewSeed$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/ZangnanCupressusCone$ZangnanCupressusConeItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for org/endangeredplants/item/ZangnanCupressusSapling$1/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Adding extras
+Sorting
+Writing Output: C:\Users\Yu Yikang\IdeaProjects\EndangeredPlants\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  .cache/
+  .cache/103d9f3f36b01595f1aa5172191e60eff02e6924
+  META-INF/mods.toml
+  assets/
+  assets/endangeredplants/
+  assets/endangeredplants/blockstates/
+  assets/endangeredplants/blockstates/baishanzufirleaves.json
+  assets/endangeredplants/blockstates/baishanzufirlog.json
+  assets/endangeredplants/blockstates/baishanzufirsaplingblock.json
+  assets/endangeredplants/blockstates/coastalrosebushblock.json
+  assets/endangeredplants/blockstates/coastalrosebushfloweredblock.json
+  assets/endangeredplants/blockstates/coastalroseseedling.json
+  assets/endangeredplants/blockstates/cyatheagametophyteblock.json
+  assets/endangeredplants/blockstates/cyathealog.json
+  assets/endangeredplants/blockstates/cyatheatop.json
+  assets/endangeredplants/blockstates/dendrobiumblock.json
+  assets/endangeredplants/blockstates/falselitchileaves.json
+  assets/endangeredplants/blockstates/falselitchilog.json
+  assets/endangeredplants/blockstates/falselitchiseedlingblock.json
+  assets/endangeredplants/blockstates/ginkgofemaleleaves.json
+  assets/endangeredplants/blockstates/ginkgolog.json
+  assets/endangeredplants/blockstates/ginkgomaleleaves.json
+  assets/endangeredplants/blockstates/ginkgosaplingblock.json
+  assets/endangeredplants/blockstates/glehniablock.json
+  assets/endangeredplants/blockstates/honghepapedablock.json
+  assets/endangeredplants/blockstates/honghepapedaleaves.json
+  assets/endangeredplants/blockstates/honghepapedalog.json
+  assets/endangeredplants/blockstates/honghepapedasaplingblock.json
+  assets/endangeredplants/blockstates/kingdonia.json
+  assets/endangeredplants/blockstates/nypa.json
+  assets/endangeredplants/blockstates/nypafruitblock.json
+  assets/endangeredplants/blockstates/sandfritillariablock.json
+  assets/endangeredplants/blockstates/soyablock.json
+  assets/endangeredplants/blockstates/strippedbaishanzufirlog.json
+  assets/endangeredplants/blockstates/strippedfalselitchilog.json
+  assets/endangeredplants/blockstates/strippedginkgolog.json
+  assets/endangeredplants/blockstates/strippedhonghepapedalog.json
+  assets/endangeredplants/blockstates/strippedyewlog.json
+  assets/endangeredplants/blockstates/strippedzangnancupressuslog.json
+  assets/endangeredplants/blockstates/wildkumquatblock.json
+  assets/endangeredplants/blockstates/wildkumquatfloweredblock.json
+  assets/endangeredplants/blockstates/wildkumquatfruitedblock.json
+  assets/endangeredplants/blockstates/wildsoyablock.json
+  assets/endangeredplants/blockstates/yewleaves.json
+  assets/endangeredplants/blockstates/yewlog.json
+  assets/endangeredplants/blockstates/yewsaplingblock.json
+  assets/endangeredplants/blockstates/zangnancupressusleaves.json
+  assets/endangeredplants/blockstates/zangnancupressuslog.json
+  assets/endangeredplants/blockstates/zangnancupressussaplingblock.json
+  assets/endangeredplants/lang/
+  assets/endangeredplants/lang/en_us.json
+  assets/endangeredplants/models/
+  assets/endangeredplants/models/block/
+  assets/endangeredplants/models/block/baishanzufirleaves.json
+  assets/endangeredplants/models/block/baishanzufirlog.json
+  assets/endangeredplants/models/block/baishanzufirsaplingblock.json
+  assets/endangeredplants/models/block/coastalrosebushblock.json
+  assets/endangeredplants/models/block/coastalrosebushfloweredblock.json
+  assets/endangeredplants/models/block/coastalroseseedling.json
+  assets/endangeredplants/models/block/cyatheagametophyteblock.json
+  assets/endangeredplants/models/block/cyathealog.json
+  assets/endangeredplants/models/block/cyatheatop.json
+  assets/endangeredplants/models/block/dendrobiumoldblockeast.json
+  assets/endangeredplants/models/block/dendrobiumoldblocknorth.json
+  assets/endangeredplants/models/block/dendrobiumoldblocksouth.json
+  assets/endangeredplants/models/block/dendrobiumoldblockwest.json
+  assets/endangeredplants/models/block/dendrobiumyoungblockeast.json
+  assets/endangeredplants/models/block/dendrobiumyoungblocknorth.json
+  assets/endangeredplants/models/block/dendrobiumyoungblocksouth.json
+  assets/endangeredplants/models/block/dendrobiumyoungblockwest.json
+  assets/endangeredplants/models/block/falselitchileaves.json
+  assets/endangeredplants/models/block/falselitchilog.json
+  assets/endangeredplants/models/block/falselitchiseedlingblock.json
+  assets/endangeredplants/models/block/ginkgofemaleleaves.json
+  assets/endangeredplants/models/block/ginkgofemaleleavesfruited.json
+  assets/endangeredplants/models/block/ginkgolog.json
+  assets/endangeredplants/models/block/ginkgomaleleaves.json
+  assets/endangeredplants/models/block/ginkgosaplingblock.json
+  assets/endangeredplants/models/block/glehniablock.json
+  assets/endangeredplants/models/block/honghepapedablockhanging.json
+  assets/endangeredplants/models/block/honghepapedablockplaced.json
+  assets/endangeredplants/models/block/honghepapedaleaves.json
+  assets/endangeredplants/models/block/honghepapedalog.json
+  assets/endangeredplants/models/block/honghepapedasaplingblock.json
+  assets/endangeredplants/models/block/kingdonia.json
+  assets/endangeredplants/models/block/nypafruitblock.json
+  assets/endangeredplants/models/block/nypaold.json
+  assets/endangeredplants/models/block/nypaoldeast.json
+  assets/endangeredplants/models/block/nypaoldnorth.json
+  assets/endangeredplants/models/block/nypaoldsouth.json
+  assets/endangeredplants/models/block/nypaoldwest.json
+  assets/endangeredplants/models/block/nypayoung.json
+  assets/endangeredplants/models/block/sandfritillariablock.json
+  assets/endangeredplants/models/block/soyablockone.json
+  assets/endangeredplants/models/block/soyablockthree.json
+  assets/endangeredplants/models/block/soyablocktwo.json
+  assets/endangeredplants/models/block/soyablockzero.json
+  assets/endangeredplants/models/block/strippedbaishanzufirlog.json
+  assets/endangeredplants/models/block/strippedfalselitchilog.json
+  assets/endangeredplants/models/block/strippedginkgolog.json
+  assets/endangeredplants/models/block/strippedhonghepapedalog.json
+  assets/endangeredplants/models/block/strippedyewlog.json
+  assets/endangeredplants/models/block/strippedzangnancupressuslog.json
+  assets/endangeredplants/models/block/wildkumquatblock.json
+  assets/endangeredplants/models/block/wildkumquatfloweredblock.json
+  assets/endangeredplants/models/block/wildkumquatfruitedblock.json
+  assets/endangeredplants/models/block/wildsoyablock.json
+  assets/endangeredplants/models/block/yewleaves.json
+  assets/endangeredplants/models/block/yewleavesfruited.json
+  assets/endangeredplants/models/block/yewlog.json
+  assets/endangeredplants/models/block/yewsaplingblock.json
+  assets/endangeredplants/models/block/zangnancupressusleaves.json
+  assets/endangeredplants/models/block/zangnancupressuslog.json
+  assets/endangeredplants/models/block/zangnancupressussaplingblock.json
+  assets/endangeredplants/models/item/
+  assets/endangeredplants/models/item/baishanzufirleaves.json
+  assets/endangeredplants/models/item/baishanzufirlog.json
+  assets/endangeredplants/models/item/baishanzufirsapling.json
+  assets/endangeredplants/models/item/baishanzufirsaplingblock.json
+  assets/endangeredplants/models/item/coastalrosebushblock.json
+  assets/endangeredplants/models/item/coastalrosebushfloweredblock.json
+  assets/endangeredplants/models/item/coastalrosebushwithoutrosehips.json
+  assets/endangeredplants/models/item/coastalrosebushwithrosehips.json
+  assets/endangeredplants/models/item/coastalrosehip.json
+  assets/endangeredplants/models/item/coastalrosepetals.json
+  assets/endangeredplants/models/item/coastalroseseedling.json
+  assets/endangeredplants/models/item/coastalroseseeds.json
+  assets/endangeredplants/models/item/coastalrosesucker.json
+  assets/endangeredplants/models/item/cyatheagametophyte.json
+  assets/endangeredplants/models/item/cyatheagametophyteblock.json
+  assets/endangeredplants/models/item/cyathealog.json
+  assets/endangeredplants/models/item/cyatheasporebottle.json
+  assets/endangeredplants/models/item/cyatheatop.json
+  assets/endangeredplants/models/item/dendrobium.json
+  assets/endangeredplants/models/item/dendrobiumblock.json
+  assets/endangeredplants/models/item/dendrobiumflower.json
+  assets/endangeredplants/models/item/dendrobiumpolysaccha.json
+  assets/endangeredplants/models/item/falselitchi.json
+  assets/endangeredplants/models/item/falselitchileaves.json
+  assets/endangeredplants/models/item/falselitchilog.json
+  assets/endangeredplants/models/item/falselitchiseedling.json
+  assets/endangeredplants/models/item/falselitchiseedlingblock.json
+  assets/endangeredplants/models/item/falselitchistone.json
+  assets/endangeredplants/models/item/ginkgocone.json
+  assets/endangeredplants/models/item/ginkgofemaleleaves.json
+  assets/endangeredplants/models/item/ginkgoleaf.json
+  assets/endangeredplants/models/item/ginkgolog.json
+  assets/endangeredplants/models/item/ginkgomaleleaves.json
+  assets/endangeredplants/models/item/ginkgopollenbottle.json
+  assets/endangeredplants/models/item/ginkgosapling.json
+  assets/endangeredplants/models/item/ginkgosaplingblock.json
+  assets/endangeredplants/models/item/ginkgoseed.json
+  assets/endangeredplants/models/item/glehnia.json
+  assets/endangeredplants/models/item/glehniablock.json
+  assets/endangeredplants/models/item/glehniaroot.json
+  assets/endangeredplants/models/item/glehniaseeds.json
+  assets/endangeredplants/models/item/honghepapeda.json
+  assets/endangeredplants/models/item/honghepapedablock.json
+  assets/endangeredplants/models/item/honghepapedaleaf.json
+  assets/endangeredplants/models/item/honghepapedaleaves.json
+  assets/endangeredplants/models/item/honghepapedalog.json
+  assets/endangeredplants/models/item/honghepapedasapling.json
+  assets/endangeredplants/models/item/honghepapedasaplingblock.json
+  assets/endangeredplants/models/item/kingdonia.json
+  assets/endangeredplants/models/item/nypa.json
+  assets/endangeredplants/models/item/nypafruit.json
+  assets/endangeredplants/models/item/nypafruitblock.json
+  assets/endangeredplants/models/item/paclitaxel.json
+  assets/endangeredplants/models/item/roastedginkgoseed.json
+  assets/endangeredplants/models/item/sandfritillariablock.json
+  assets/endangeredplants/models/item/sandfritillariabuds.json
+  assets/endangeredplants/models/item/sandfritillariabulb.json
+  assets/endangeredplants/models/item/soya.json
+  assets/endangeredplants/models/item/soyablock.json
+  assets/endangeredplants/models/item/soyamilk.json
+  assets/endangeredplants/models/item/soyazher.json
+  assets/endangeredplants/models/item/specimenbag.json
+  assets/endangeredplants/models/item/strippedbaishanzufirlog.json
+  assets/endangeredplants/models/item/strippedfalselitchilog.json
+  assets/endangeredplants/models/item/strippedginkgolog.json
+  assets/endangeredplants/models/item/strippedhonghepapedalog.json
+  assets/endangeredplants/models/item/strippedyewlog.json
+  assets/endangeredplants/models/item/strippedzangnancupressuslog.json
+  assets/endangeredplants/models/item/wildkumquat.json
+  assets/endangeredplants/models/item/wildkumquatblock.json
+  assets/endangeredplants/models/item/wildkumquatbush.json
+  assets/endangeredplants/models/item/wildkumquatbushwithflowers.json
+  assets/endangeredplants/models/item/wildkumquatbushwithfruits.json
+  assets/endangeredplants/models/item/wildkumquatfloweredblock.json
+  assets/endangeredplants/models/item/wildkumquatfruitedblock.json
+  assets/endangeredplants/models/item/wildsoya.json
+  assets/endangeredplants/models/item/wildsoyablock.json
+  assets/endangeredplants/models/item/yewbark.json
+  assets/endangeredplants/models/item/yewcone.json
+  assets/endangeredplants/models/item/yewleaves.json
+  assets/endangeredplants/models/item/yewlog.json
+  assets/endangeredplants/models/item/yewsapling.json
+  assets/endangeredplants/models/item/yewseed.json
+  assets/endangeredplants/models/item/zangnancupressuscone.json
+  assets/endangeredplants/models/item/zangnancupressusleaves.json
+  assets/endangeredplants/models/item/zangnancupressuslog.json
+  assets/endangeredplants/models/item/zangnancupressussapling.json
+  assets/endangeredplants/models/item/zangnancupressussaplingblock.json
+  assets/endangeredplants/textures/
+  assets/endangeredplants/textures/block/
+  assets/endangeredplants/textures/block/baishanzufirsaplingblock.png
+  assets/endangeredplants/textures/block/baishanzuleaves.png
+  assets/endangeredplants/textures/block/baishanzulogbark.png
+  assets/endangeredplants/textures/block/baishanzulogcut.png
+  assets/endangeredplants/textures/block/baishanzustripped.png
+  assets/endangeredplants/textures/block/coastalrosebushblock.png
+  assets/endangeredplants/textures/block/coastalrosebushfloweredblock.png
+  assets/endangeredplants/textures/block/coastalroseseedling.png
+  assets/endangeredplants/textures/block/cyatheabark.png
+  assets/endangeredplants/textures/block/cyatheaend.png
+  assets/endangeredplants/textures/block/cyatheagametophyteblock.png
+  assets/endangeredplants/textures/block/cyatheatop.png
+  assets/endangeredplants/textures/block/dendrobiumoldblock.png
+  assets/endangeredplants/textures/block/dendrobiumyoungblock.png
+  assets/endangeredplants/textures/block/falselitchileaves.png
+  assets/endangeredplants/textures/block/falselitchilogbark.png
+  assets/endangeredplants/textures/block/falselitchilogcut.png
+  assets/endangeredplants/textures/block/falselitchilogstripped.png
+  assets/endangeredplants/textures/block/falselitchiseedlingblock.png
+  assets/endangeredplants/textures/block/ginkgofemaleleaves.png
+  assets/endangeredplants/textures/block/ginkgofemaleleavesfruited.png
+  assets/endangeredplants/textures/block/ginkgologbark.png
+  assets/endangeredplants/textures/block/ginkgologcut.png
+  assets/endangeredplants/textures/block/ginkgologstripped.png
+  assets/endangeredplants/textures/block/ginkgomaleleaves.png
+  assets/endangeredplants/textures/block/ginkgosaplingblock.png
+  assets/endangeredplants/textures/block/glehniablock.png
+  assets/endangeredplants/textures/block/honghepapedablockhanging.png
+  assets/endangeredplants/textures/block/honghepapedablockplaced.png
+  assets/endangeredplants/textures/block/honghepapedaleaves.png
+  assets/endangeredplants/textures/block/honghepapedalogbark.png
+  assets/endangeredplants/textures/block/honghepapedalogcut.png
+  assets/endangeredplants/textures/block/honghepapedalogstripped.png
+  assets/endangeredplants/textures/block/honghepapedasaplingblock.png
+  assets/endangeredplants/textures/block/kingdonia.png
+  assets/endangeredplants/textures/block/nypa.png
+  assets/endangeredplants/textures/block/nypafruitblock.png
+  assets/endangeredplants/textures/block/nypastem.png
+  assets/endangeredplants/textures/block/nypayoung.png
+  assets/endangeredplants/textures/block/sandfritillariablock.png
+  assets/endangeredplants/textures/block/soyablockone.png
+  assets/endangeredplants/textures/block/soyablockthree.png
+  assets/endangeredplants/textures/block/soyablocktwo.png
+  assets/endangeredplants/textures/block/soyablockzero.png
+  assets/endangeredplants/textures/block/wildkumquatblock.png
+  assets/endangeredplants/textures/block/wildkumquatfloweredblock.png
+  assets/endangeredplants/textures/block/wildkumquatfruitedblock.png
+  assets/endangeredplants/textures/block/wildsoyablock.png
+  assets/endangeredplants/textures/block/yewleaves.png
+  assets/endangeredplants/textures/block/yewleavesfruited.png
+  assets/endangeredplants/textures/block/yewlogbark.png
+  assets/endangeredplants/textures/block/yewlogcut.png
+  assets/endangeredplants/textures/block/yewlogstripped.png
+  assets/endangeredplants/textures/block/yewsaplingblock.png
+  assets/endangeredplants/textures/block/zangnancupressusleaves.png
+  assets/endangeredplants/textures/block/zangnancupressuslogbark.png
+  assets/endangeredplants/textures/block/zangnancupressuslogcut.png
+  assets/endangeredplants/textures/block/zangnancupressussaplingblock.png
+  assets/endangeredplants/textures/block/zangnancupressusstripped.png
+  assets/endangeredplants/textures/item/
+  assets/endangeredplants/textures/item/baishanzufirsapling.png
+  assets/endangeredplants/textures/item/coastalrosebushwithoutrosehips.png
+  assets/endangeredplants/textures/item/coastalrosebushwithrosehips.png
+  assets/endangeredplants/textures/item/coastalrosehip.png
+  assets/endangeredplants/textures/item/coastalrosepetals.png
+  assets/endangeredplants/textures/item/coastalroseseeds.png
+  assets/endangeredplants/textures/item/coastalrosesucker.png
+  assets/endangeredplants/textures/item/cyatheagametophyte.png
+  assets/endangeredplants/textures/item/cyatheasporebottle.png
+  assets/endangeredplants/textures/item/dendrobium.png
+  assets/endangeredplants/textures/item/dendrobiumflower.png
+  assets/endangeredplants/textures/item/dendrobiumpolysaccha.png
+  assets/endangeredplants/textures/item/falselitchi.png
+  assets/endangeredplants/textures/item/falselitchiseedling.png
+  assets/endangeredplants/textures/item/falselitchistone.png
+  assets/endangeredplants/textures/item/ginkgocone.png
+  assets/endangeredplants/textures/item/ginkgoleaf.png
+  assets/endangeredplants/textures/item/ginkgopollenbottle.png
+  assets/endangeredplants/textures/item/ginkgosapling.png
+  assets/endangeredplants/textures/item/ginkgoseed.png
+  assets/endangeredplants/textures/item/glehnia.png
+  assets/endangeredplants/textures/item/glehniaroot.png
+  assets/endangeredplants/textures/item/glehniaseeds.png
+  assets/endangeredplants/textures/item/honghepapeda.png
+  assets/endangeredplants/textures/item/honghepapedaleaf.png
+  assets/endangeredplants/textures/item/honghepapedasapling.png
+  assets/endangeredplants/textures/item/nypafruit.png
+  assets/endangeredplants/textures/item/paclitaxel.png
+  assets/endangeredplants/textures/item/roastedginkgoseed.png
+  assets/endangeredplants/textures/item/sandfritillariabuds.png
+  assets/endangeredplants/textures/item/sandfritillariabulb.png
+  assets/endangeredplants/textures/item/soya.png
+  assets/endangeredplants/textures/item/soyamilk.png
+  assets/endangeredplants/textures/item/soyazher.png
+  assets/endangeredplants/textures/item/specimenbag.png
+  assets/endangeredplants/textures/item/wildkumquat.png
+  assets/endangeredplants/textures/item/wildkumquatbush.png
+  assets/endangeredplants/textures/item/wildkumquatbushwithflowers.png
+  assets/endangeredplants/textures/item/wildkumquatbushwithfruits.png
+  assets/endangeredplants/textures/item/wildsoya.png
+  assets/endangeredplants/textures/item/yewbark.png
+  assets/endangeredplants/textures/item/yewcone.png
+  assets/endangeredplants/textures/item/yewsapling.png
+  assets/endangeredplants/textures/item/yewseed.png
+  assets/endangeredplants/textures/item/zangnancupressuscone.png
+  assets/endangeredplants/textures/item/zangnancupressussapling.png
+  assets/endangeredplants/textures/mob_effect/
+  assets/endangeredplants/textures/mob_effect/hallu.png
+  data/
+  data/endangeredplants/
+  data/endangeredplants/forge/
+  data/endangeredplants/forge/biome_modifier/
+  data/endangeredplants/forge/biome_modifier/add_baishanzu_fir_tree.json
+  data/endangeredplants/forge/biome_modifier/add_coastal_rose_bush.json
+  data/endangeredplants/forge/biome_modifier/add_cyathea.json
+  data/endangeredplants/forge/biome_modifier/add_dendrobium.json
+  data/endangeredplants/forge/biome_modifier/add_false_litchi_tree.json
+  data/endangeredplants/forge/biome_modifier/add_female_ginkgo_tree.json
+  data/endangeredplants/forge/biome_modifier/add_glehnia.json
+  data/endangeredplants/forge/biome_modifier/add_honghe_papeda_tree.json
+  data/endangeredplants/forge/biome_modifier/add_kingdonia.json
+  data/endangeredplants/forge/biome_modifier/add_male_ginkgo_tree.json
+  data/endangeredplants/forge/biome_modifier/add_nypa.json
+  data/endangeredplants/forge/biome_modifier/add_sand_fritillaria.json
+  data/endangeredplants/forge/biome_modifier/add_wild_kumquat.json
+  data/endangeredplants/forge/biome_modifier/add_wild_soya.json
+  data/endangeredplants/forge/biome_modifier/add_yew_tree.json
+  data/endangeredplants/forge/biome_modifier/add_zangnan_cupressus_tree.json
+  data/endangeredplants/recipes/
+  data/endangeredplants/recipes/coastalroseseedsfromhip.json
+  data/endangeredplants/recipes/dendrobiumpolysacchafromplant.json
+  data/endangeredplants/recipes/douzher.json
+  data/endangeredplants/recipes/ginkgoleaffromfemale.json
+  data/endangeredplants/recipes/ginkgoleaffrommale.json
+  data/endangeredplants/recipes/ginkgoseedfromcone.json
+  data/endangeredplants/recipes/paclitaxel.json
+  data/endangeredplants/recipes/papedaleaffromleaves.json
+  data/endangeredplants/recipes/pinkdyefromrosepetals.json
+  data/endangeredplants/recipes/roastginkgoseed.json
+  data/endangeredplants/recipes/sandfritillariabudsfrombulb.json
+  data/endangeredplants/recipes/soyamilkfromsoya.json
+  data/endangeredplants/worldgen/
+  data/endangeredplants/worldgen/configured_feature/
+  data/endangeredplants/worldgen/configured_feature/baishanzu_fir_tree.json
+  data/endangeredplants/worldgen/configured_feature/coastal_rose_bush.json
+  data/endangeredplants/worldgen/configured_feature/cyathea.json
+  data/endangeredplants/worldgen/configured_feature/dendrobium.json
+  data/endangeredplants/worldgen/configured_feature/false_litchi_tree.json
+  data/endangeredplants/worldgen/configured_feature/female_ginkgo_tree.json
+  data/endangeredplants/worldgen/configured_feature/glehnia.json
+  data/endangeredplants/worldgen/configured_feature/honghe_papeda_tree.json
+  data/endangeredplants/worldgen/configured_feature/kingdonia.json
+  data/endangeredplants/worldgen/configured_feature/male_ginkgo_tree.json
+  data/endangeredplants/worldgen/configured_feature/nypa.json
+  data/endangeredplants/worldgen/configured_feature/sand_fritillaria.json
+  data/endangeredplants/worldgen/configured_feature/wild_kumquat.json
+  data/endangeredplants/worldgen/configured_feature/wild_soya.json
+  data/endangeredplants/worldgen/configured_feature/yew_tree.json
+  data/endangeredplants/worldgen/configured_feature/zangnan_cupressus_tree.json
+  data/endangeredplants/worldgen/placed_feature/
+  data/endangeredplants/worldgen/placed_feature/baishanzu_fir_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/coastal_rose_bush_placed.json
+  data/endangeredplants/worldgen/placed_feature/cyathea_placed.json
+  data/endangeredplants/worldgen/placed_feature/dendrobium_placed.json
+  data/endangeredplants/worldgen/placed_feature/false_litchi_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/female_ginkgo_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/glehnia_placed.json
+  data/endangeredplants/worldgen/placed_feature/honghe_papeda_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/kingdonia_placed.json
+  data/endangeredplants/worldgen/placed_feature/male_ginkgo_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/nypa_placed.json
+  data/endangeredplants/worldgen/placed_feature/sand_fritillaria_placed.json
+  data/endangeredplants/worldgen/placed_feature/wild_kumquat_placed.json
+  data/endangeredplants/worldgen/placed_feature/wild_soya_placed.json
+  data/endangeredplants/worldgen/placed_feature/yew_tree_placed.json
+  data/endangeredplants/worldgen/placed_feature/zangnan_cupressus_tree_placed.json
+  org/
+  org/endangeredplants/
+  org/endangeredplants/Config.class
+  org/endangeredplants/Endangeredplants$ClientModEvents.class
+  org/endangeredplants/Endangeredplants.class
+  org/endangeredplants/block/
+  org/endangeredplants/block/BaishanzuFirLeaves$BaishanzuLeavesBlock.class
+  org/endangeredplants/block/BaishanzuFirLeaves.class
+  org/endangeredplants/block/BaishanzuFirLog$LogInteractionHandler.class
+  org/endangeredplants/block/BaishanzuFirLog$LogInteractionRegistry.class
+  org/endangeredplants/block/BaishanzuFirLog.class
+  org/endangeredplants/block/BaishanzuFirSaplingBlock$PlantBlock.class
+  org/endangeredplants/block/BaishanzuFirSaplingBlock.class
+  org/endangeredplants/block/CoastalRoseSeedling$SeedlingBlock.class
+  org/endangeredplants/block/CoastalRoseSeedling.class
+  org/endangeredplants/block/CoastalRosebushBlock$ThornyBushBlock.class
+  org/endangeredplants/block/CoastalRosebushBlock.class
+  org/endangeredplants/block/CoastalRosebushFloweredBlock$ThornyBushBlock.class
+  org/endangeredplants/block/CoastalRosebushFloweredBlock.class
+  org/endangeredplants/block/CyatheaGametophyteBlock$PlantBlock.class
+  org/endangeredplants/block/CyatheaGametophyteBlock.class
+  org/endangeredplants/block/CyatheaLog$1.class
+  org/endangeredplants/block/CyatheaLog.class
+  org/endangeredplants/block/CyatheaTop$PlantBlock.class
+  org/endangeredplants/block/CyatheaTop.class
+  org/endangeredplants/block/DendrobiumBlock$VineBlock.class
+  org/endangeredplants/block/DendrobiumBlock.class
+  org/endangeredplants/block/FalseLitchiLeaves$FalseLitchiLeavesBlock.class
+  org/endangeredplants/block/FalseLitchiLeaves.class
+  org/endangeredplants/block/FalseLitchiLog$LogInteractionHandler.class
+  org/endangeredplants/block/FalseLitchiLog$LogInteractionRegistry.class
+  org/endangeredplants/block/FalseLitchiLog.class
+  org/endangeredplants/block/FalseLitchiSeedlingBlock$SeedlingBlock.class
+  org/endangeredplants/block/FalseLitchiSeedlingBlock.class
+  org/endangeredplants/block/GinkgoLeaves$GinkgoLeavesBlock.class
+  org/endangeredplants/block/GinkgoLeaves.class
+  org/endangeredplants/block/GinkgoLog$LogInteractionHandler.class
+  org/endangeredplants/block/GinkgoLog$LogInteractionRegistry.class
+  org/endangeredplants/block/GinkgoLog.class
+  org/endangeredplants/block/GinkgoSaplingBlock$PlantBlock.class
+  org/endangeredplants/block/GinkgoSaplingBlock.class
+  org/endangeredplants/block/GlehniaBlock$PlantBlock.class
+  org/endangeredplants/block/GlehniaBlock.class
+  org/endangeredplants/block/HonghePapedaBlock.class
+  org/endangeredplants/block/HonghePapedaLeaves$HonghePapedaLeavesBlock.class
+  org/endangeredplants/block/HonghePapedaLeaves.class
+  org/endangeredplants/block/HonghePapedaLog$LogInteractionHandler.class
+  org/endangeredplants/block/HonghePapedaLog$LogInteractionRegistry.class
+  org/endangeredplants/block/HonghePapedaLog.class
+  org/endangeredplants/block/HonghePapedaSaplingBlock$PlantBlock.class
+  org/endangeredplants/block/HonghePapedaSaplingBlock.class
+  org/endangeredplants/block/Kingdonia$PlantBlock.class
+  org/endangeredplants/block/Kingdonia.class
+  org/endangeredplants/block/Nypa$1.class
+  org/endangeredplants/block/Nypa$FruitPosition.class
+  org/endangeredplants/block/Nypa$PlantBlock.class
+  org/endangeredplants/block/Nypa.class
+  org/endangeredplants/block/NypaFruitBlock$FruitBlock.class
+  org/endangeredplants/block/NypaFruitBlock.class
+  org/endangeredplants/block/SandFritillariaBlock$PlantBlock.class
+  org/endangeredplants/block/SandFritillariaBlock.class
+  org/endangeredplants/block/SoyaBlock$SoyaPlantBlock.class
+  org/endangeredplants/block/SoyaBlock.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlock.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity$1.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity$2.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockEntity.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserBlockItem.class
+  org/endangeredplants/block/SpecimenPresser$SpecimenPresserMenu.class
+  org/endangeredplants/block/SpecimenPresser.class
+  org/endangeredplants/block/WildKumquatBlock$KumquatBushBlock.class
+  org/endangeredplants/block/WildKumquatBlock.class
+  org/endangeredplants/block/WildKumquatFloweredBlock$KumquatFloweredBushBlock.class
+  org/endangeredplants/block/WildKumquatFloweredBlock.class
+  org/endangeredplants/block/WildKumquatFruitedBlock$KumquatFruitedBushBlock.class
+  org/endangeredplants/block/WildKumquatFruitedBlock.class
+  org/endangeredplants/block/WildSoyaBlock$SoyaBlock.class
+  org/endangeredplants/block/WildSoyaBlock.class
+  org/endangeredplants/block/YewLeaves$YewLeavesBlock.class
+  org/endangeredplants/block/YewLeaves.class
+  org/endangeredplants/block/YewLog$LogInteractionHandler.class
+  org/endangeredplants/block/YewLog$LogInteractionRegistry.class
+  org/endangeredplants/block/YewLog.class
+  org/endangeredplants/block/YewSaplingBlock$PlantBlock.class
+  org/endangeredplants/block/YewSaplingBlock.class
+  org/endangeredplants/block/ZangnanCupressusLeaves$ZangnanCupressusLeavesBlock.class
+  org/endangeredplants/block/ZangnanCupressusLeaves.class
+  org/endangeredplants/block/ZangnanCupressusLog$LogInteractionHandler.class
+  org/endangeredplants/block/ZangnanCupressusLog$LogInteractionRegistry.class
+  org/endangeredplants/block/ZangnanCupressusLog.class
+  org/endangeredplants/block/ZangnanCupressusSaplingBlock$PlantBlock.class
+  org/endangeredplants/block/ZangnanCupressusSaplingBlock.class
+  org/endangeredplants/client/
+  org/endangeredplants/client/ClientEntityRenderer.class
+  org/endangeredplants/client/ClientSetup.class
+  org/endangeredplants/client/ModClient.class
+  org/endangeredplants/client/gui/
+  org/endangeredplants/client/gui/SpecimenPresserScreen.class
+  org/endangeredplants/datagen/
+  org/endangeredplants/datagen/DataGeneration.class
+  org/endangeredplants/effect/
+  org/endangeredplants/effect/HalluEffect$HalluMobEffect$1.class
+  org/endangeredplants/effect/HalluEffect$HalluMobEffect.class
+  org/endangeredplants/effect/HalluEffect.class
+  org/endangeredplants/entity/
+  org/endangeredplants/entity/FallingPapeda.class
+  org/endangeredplants/item/
+  org/endangeredplants/item/BaishanzuFirSapling$1.class
+  org/endangeredplants/item/BaishanzuFirSapling.class
+  org/endangeredplants/item/CoastalRoseBushWithRosehips$CoastalRoseBushItem.class
+  org/endangeredplants/item/CoastalRoseBushWithRosehips.class
+  org/endangeredplants/item/CoastalRoseBushWithoutRosehips$CoastalRoseBushWithoutHipsItem.class
+  org/endangeredplants/item/CoastalRoseBushWithoutRosehips.class
+  org/endangeredplants/item/CoastalRosePetals.class
+  org/endangeredplants/item/CoastalRoseSeeds$RoseSeedsItem.class
+  org/endangeredplants/item/CoastalRoseSeeds.class
+  org/endangeredplants/item/CoastalRoseSucker$RoseSuckerItem.class
+  org/endangeredplants/item/CoastalRoseSucker.class
+  org/endangeredplants/item/CoastalRosehip.class
+  org/endangeredplants/item/CyatheaGametophyte$1.class
+  org/endangeredplants/item/CyatheaGametophyte.class
+  org/endangeredplants/item/CyatheaSporeBottle$CyatheaSporeBottleItem.class
+  org/endangeredplants/item/CyatheaSporeBottle.class
+  org/endangeredplants/item/Dendrobium$DendrobiumItem.class
+  org/endangeredplants/item/Dendrobium.class
+  org/endangeredplants/item/DendrobiumFlower.class
+  org/endangeredplants/item/DendrobiumPolysaccha$1.class
+  org/endangeredplants/item/DendrobiumPolysaccha.class
+  org/endangeredplants/item/FalseLitchi$FalseLitchiItem.class
+  org/endangeredplants/item/FalseLitchi.class
+  org/endangeredplants/item/FalseLitchiSeedling$1.class
+  org/endangeredplants/item/FalseLitchiSeedling.class
+  org/endangeredplants/item/FalseLitchiStone$1.class
+  org/endangeredplants/item/FalseLitchiStone$SaturationDrainHandler.class
+  org/endangeredplants/item/FalseLitchiStone.class
+  org/endangeredplants/item/GinkgoCone$GinkgoConeItem.class
+  org/endangeredplants/item/GinkgoCone.class
+  org/endangeredplants/item/GinkgoLeaf.class
+  org/endangeredplants/item/GinkgoPollenBottle$GinkgoPollenBottleItem.class
+  org/endangeredplants/item/GinkgoPollenBottle.class
+  org/endangeredplants/item/GinkgoSapling$1.class
+  org/endangeredplants/item/GinkgoSapling.class
+  org/endangeredplants/item/GinkgoSeed$1.class
+  org/endangeredplants/item/GinkgoSeed.class
+  org/endangeredplants/item/Glehnia$1.class
+  org/endangeredplants/item/Glehnia.class
+  org/endangeredplants/item/GlehniaRoot$1.class
+  org/endangeredplants/item/GlehniaRoot.class
+  org/endangeredplants/item/GlehniaSeeds$GlehniaSeedsItem.class
+  org/endangeredplants/item/GlehniaSeeds.class
+  org/endangeredplants/item/HonghePapeda$1.class
+  org/endangeredplants/item/HonghePapeda.class
+  org/endangeredplants/item/HonghePapedaLeaf.class
+  org/endangeredplants/item/HonghePapedaSapling$1.class
+  org/endangeredplants/item/HonghePapedaSapling.class
+  org/endangeredplants/item/NypaFruit$NypaFruitItem.class
+  org/endangeredplants/item/NypaFruit.class
+  org/endangeredplants/item/Paclitaxel$1.class
+  org/endangeredplants/item/Paclitaxel.class
+  org/endangeredplants/item/RoastedGinkgoSeed.class
+  org/endangeredplants/item/SandFritillariaBuds$1.class
+  org/endangeredplants/item/SandFritillariaBuds.class
+  org/endangeredplants/item/SandFritillariaBulb$1.class
+  org/endangeredplants/item/SandFritillariaBulb.class
+  org/endangeredplants/item/Soya$SoyaItem.class
+  org/endangeredplants/item/Soya.class
+  org/endangeredplants/item/SoyaMilk$1.class
+  org/endangeredplants/item/SoyaMilk.class
+  org/endangeredplants/item/SoyaZher$1.class
+  org/endangeredplants/item/SoyaZher.class
+  org/endangeredplants/item/SpecimenBag$SpecimenBagItem.class
+  org/endangeredplants/item/SpecimenBag.class
+  org/endangeredplants/item/WildKumquat$WildKumquatItem.class
+  org/endangeredplants/item/WildKumquat.class
+  org/endangeredplants/item/WildKumquatBush$WildKumquatBushItem.class
+  org/endangeredplants/item/WildKumquatBush.class
+  org/endangeredplants/item/WildKumquatBushWithFlowers$WildKumquatBushWithFlowersItem.class
+  org/endangeredplants/item/WildKumquatBushWithFlowers.class
+  org/endangeredplants/item/WildKumquatBushWithFruits$WildKumquatBushWithFruitsItem.class
+  org/endangeredplants/item/WildKumquatBushWithFruits.class
+  org/endangeredplants/item/WildSoya$WildSoyaItem.class
+  org/endangeredplants/item/WildSoya.class
+  org/endangeredplants/item/YewBark.class
+  org/endangeredplants/item/YewCone$YewConeItem.class
+  org/endangeredplants/item/YewCone.class
+  org/endangeredplants/item/YewSapling$1.class
+  org/endangeredplants/item/YewSapling.class
+  org/endangeredplants/item/YewSeed$1.class
+  org/endangeredplants/item/YewSeed.class
+  org/endangeredplants/item/ZangnanCupressusCone$ZangnanCupressusConeItem.class
+  org/endangeredplants/item/ZangnanCupressusCone.class
+  org/endangeredplants/item/ZangnanCupressusSapling$1.class
+  org/endangeredplants/item/ZangnanCupressusSapling.class
+  org/endangeredplants/tab/
+  org/endangeredplants/tab/ChineseTab.class
+  org/endangeredplants/worldgen/
+  org/endangeredplants/worldgen/ModBiomeModifiers.class
+  org/endangeredplants/worldgen/ModConfiguredFeatures.class
+  org/endangeredplants/worldgen/ModFeatures.class
+  org/endangeredplants/worldgen/ModPlacedFeatures.class
+  org/endangeredplants/worldgen/tree/
+  org/endangeredplants/worldgen/tree/BaishanzuGrower.class
+  org/endangeredplants/worldgen/tree/FalseLitchiGrower.class
+  org/endangeredplants/worldgen/tree/FemaleGinkgoGrower.class
+  org/endangeredplants/worldgen/tree/HongheGrower.class
+  org/endangeredplants/worldgen/tree/MaleGinkgoGrower.class
+  org/endangeredplants/worldgen/tree/YewGrower.class
+  org/endangeredplants/worldgen/tree/ZangnanGrower.class
+  pack.mcmeta

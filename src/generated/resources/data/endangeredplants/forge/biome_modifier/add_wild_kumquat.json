@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:beach",
+  "features": "endangeredplants:wild_kumquat_placed",
+  "step": "vegetal_decoration"
+}

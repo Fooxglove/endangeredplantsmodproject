@@ -1,0 +1,88 @@
+{
+  "variants": {
+    "distance=1,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=1,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=1,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=1,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=2,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=2,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=2,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=2,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=3,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=3,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=3,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=3,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=4,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=4,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=4,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=4,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=5,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=5,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=5,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=5,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=6,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=6,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=6,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=6,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=7,fruited=false,haspollen=false,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=7,fruited=false,haspollen=false,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=7,fruited=false,haspollen=true,persistent=false": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    },
+    "distance=7,fruited=false,haspollen=true,persistent=true": {
+      "model": "endangeredplants:block/ginkgomaleleaves"
+    }
+  }
+}

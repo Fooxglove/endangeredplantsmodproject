@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "endangeredplants:block/honghepapedablockplaced"
+    },
+    "hanging=true": {
+      "model": "endangeredplants:block/honghepapedablockhanging"
+    }
+  }
+}
