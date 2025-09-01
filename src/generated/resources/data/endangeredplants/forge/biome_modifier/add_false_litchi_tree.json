@@ -3,7 +3,8 @@
   "biomes": [
     "minecraft:savanna",
     "minecraft:savanna_plateau",
-    "minecraft:windswept_savanna"
+    "minecraft:windswept_savanna",
+    "minecraft:sparse_jungle"
   ],
   "features": "endangeredplants:false_litchi_tree_placed",
   "step": "vegetal_decoration"

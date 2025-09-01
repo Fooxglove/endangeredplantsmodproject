@@ -6,6 +6,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -37,7 +38,18 @@ public class SoyaMilk {
                     // Play sound effect (you'll need to register this sound)
                     // entity.playSound(SoundEvents.GENERIC_DRINK, 0.5F, world.random.nextFloat() * 0.1F + 0.9F);
 
-                    return super.finishUsingItem(stack, world, entity);
+                    // Handle glass bottle return
+                    ItemStack resultStack = super.finishUsingItem(stack, world, entity);
+
+                    if (entity instanceof Player player && !player.getAbilities().instabuild) {
+                        // Check if we should add a glass bottle to inventory or drop it
+                        if (!player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE))) {
+                            // If inventory is full, drop the glass bottle
+                            player.drop(new ItemStack(Items.GLASS_BOTTLE), false);
+                        }
+                    }
+
+                    return resultStack;
                 }
             });
 

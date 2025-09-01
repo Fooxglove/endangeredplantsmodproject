@@ -210,7 +210,7 @@ public class DendrobiumBlock {
             level.setBlock(pos, newState, 3);
         }
 
-        // 检查是否能附着到指定方向 - 只允许水平方向附着
+        // 检查是否能附着到指定方向 - 扩展支持的方块类型
         private boolean canAttachTo(LevelReader level, BlockPos pos, Direction direction) {
             // 石斛不能附着在上下表面
             if (direction == Direction.UP || direction == Direction.DOWN) {
@@ -220,10 +220,34 @@ public class DendrobiumBlock {
             BlockPos adjacentPos = pos.relative(direction);
             BlockState adjacentState = level.getBlockState(adjacentPos);
 
-            // 检查相邻方块是否是固体方块
+            // 检查相邻方块是否是空气
             if (adjacentState.isAir()) return false;
 
-            // 检查面是否坚固
+            // 排除树叶方块 - 石斛不应该附着在树叶上
+            if (adjacentState.is(Blocks.OAK_LEAVES) || adjacentState.is(Blocks.BIRCH_LEAVES) ||
+                    adjacentState.is(Blocks.SPRUCE_LEAVES) || adjacentState.is(Blocks.JUNGLE_LEAVES) ||
+                    adjacentState.is(Blocks.ACACIA_LEAVES) || adjacentState.is(Blocks.DARK_OAK_LEAVES) ||
+                    adjacentState.is(Blocks.AZALEA_LEAVES) || adjacentState.is(Blocks.FLOWERING_AZALEA_LEAVES) ||
+                    adjacentState.is(Blocks.MANGROVE_LEAVES) || adjacentState.is(Blocks.CHERRY_LEAVES)) {
+                return false;
+            }
+
+            // 允许附着的方块类型：原木、石头、地面方块等
+            if (adjacentState.is(Blocks.OAK_LOG) || adjacentState.is(Blocks.BIRCH_LOG) ||
+                    adjacentState.is(Blocks.SPRUCE_LOG) || adjacentState.is(Blocks.JUNGLE_LOG) ||
+                    adjacentState.is(Blocks.ACACIA_LOG) || adjacentState.is(Blocks.DARK_OAK_LOG) ||
+                    adjacentState.is(Blocks.CRIMSON_STEM) || adjacentState.is(Blocks.WARPED_STEM) ||
+                    adjacentState.is(Blocks.CHERRY_LOG) || adjacentState.is(Blocks.MANGROVE_LOG) ||
+                    adjacentState.is(Blocks.BAMBOO_BLOCK) ||
+                    adjacentState.is(Blocks.STONE) || adjacentState.is(Blocks.COBBLESTONE) ||
+                    adjacentState.is(Blocks.MOSSY_COBBLESTONE) || adjacentState.is(Blocks.STONE_BRICKS) ||
+                    adjacentState.is(Blocks.MOSSY_STONE_BRICKS) || adjacentState.is(Blocks.GRASS_BLOCK) ||
+                    adjacentState.is(Blocks.DIRT) || adjacentState.is(Blocks.PODZOL) ||
+                    adjacentState.is(Blocks.COARSE_DIRT) || adjacentState.is(Blocks.ROOTED_DIRT)) {
+                return adjacentState.isFaceSturdy(level, adjacentPos, direction.getOpposite());
+            }
+
+            // 默认情况下，检查面是否坚固
             return adjacentState.isFaceSturdy(level, adjacentPos, direction.getOpposite());
         }
 
@@ -300,6 +324,45 @@ public class DendrobiumBlock {
         // 检查方块是否能存活
         public boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
             return this.hasAnyAttachment(state);
+        }
+
+        // 世界生成时的初始化逻辑 - 自动检测并附着到合适的表面
+        @Override
+        public void onPlace(BlockState state, Level level, BlockPos pos, BlockState oldState, boolean isMoving) {
+            if (!level.isClientSide && !isMoving) {
+                // 检测周围可附着的水平表面并自动附着
+                BlockState finalState = this.detectAndAttachToSurfaces(state, level, pos);
+                if (!finalState.equals(state)) {
+                    level.setBlock(pos, finalState, 3);
+                }
+            }
+            super.onPlace(state, level, pos, oldState, isMoving);
+        }
+
+        // 检测并附着到周围的表面
+        private BlockState detectAndAttachToSurfaces(BlockState state, Level level, BlockPos pos) {
+            BlockState newState = state;
+            Direction[] horizontalDirections = {Direction.NORTH, Direction.SOUTH, Direction.EAST, Direction.WEST};
+
+            // 重置所有附着状态
+            for (Direction direction : horizontalDirections) {
+                BooleanProperty property = PROPERTY_BY_DIRECTION.get(direction);
+                if (property != null) {
+                    newState = newState.setValue(property, false);
+                }
+            }
+
+            // 检测可附着的表面
+            for (Direction direction : horizontalDirections) {
+                if (this.canAttachTo(level, pos, direction)) {
+                    BooleanProperty property = PROPERTY_BY_DIRECTION.get(direction);
+                    if (property != null) {
+                        newState = newState.setValue(property, true);
+                    }
+                }
+            }
+
+            return newState;
         }
 
         // 破坏掉落逻辑

@@ -32,6 +32,22 @@ public class ModBiomeModifiers {
             ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
                     new ResourceLocation(Endangeredplants.MODID, "add_wild_kumquat"));
 
+    public static final ResourceKey<BiomeModifier> ADD_NYPA =
+            ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
+                    new ResourceLocation(Endangeredplants.MODID, "add_nypa"));
+
+    public static final ResourceKey<BiomeModifier> ADD_SAND_FRITILLARIA =
+            ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
+                    new ResourceLocation(Endangeredplants.MODID, "add_sand_fritillaria"));
+
+    public static final ResourceKey<BiomeModifier> ADD_WILD_SOYA =
+            ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
+                    new ResourceLocation(Endangeredplants.MODID, "add_wild_soya"));
+
+    public static final ResourceKey<BiomeModifier> ADD_KINGDONIA =
+            ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
+                    new ResourceLocation(Endangeredplants.MODID, "add_kingdonia"));
+
     public static final ResourceKey<BiomeModifier> ADD_BAISHANZU_FIR_TREE =
             ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
                     new ResourceLocation(Endangeredplants.MODID, "add_baishanzu_fir_tree"));
@@ -60,6 +76,13 @@ public class ModBiomeModifiers {
             ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
                     new ResourceLocation(Endangeredplants.MODID, "add_female_ginkgo_tree"));
 
+    // 添加石斛生物群系修改器
+    public static final ResourceKey<BiomeModifier> ADD_DENDROBIUM =
+            ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,
+                    new ResourceLocation(Endangeredplants.MODID, "add_dendrobium"));
+
+
+
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
@@ -79,7 +102,6 @@ public class ModBiomeModifiers {
         context.register(ADD_GLEHNIA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 HolderSet.direct(
                         biomes.getOrThrow(Biomes.BEACH),
-                        biomes.getOrThrow(Biomes.STONY_SHORE),
                         biomes.getOrThrow(Biomes.SNOWY_BEACH)
                 ),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.GLEHNIA_PLACED)),
@@ -101,10 +123,61 @@ public class ModBiomeModifiers {
         // Wild Kumquat - 保持原有设置
         context.register(ADD_WILD_KUMQUAT, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 HolderSet.direct(
-                        biomes.getOrThrow(Biomes.BEACH),
-                        biomes.getOrThrow(Biomes.DESERT)
+                        biomes.getOrThrow(Biomes.BEACH)
                 ),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.WILD_KUMQUAT_PLACED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION
+        ));
+
+        context.register(ADD_NYPA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.MANGROVE_SWAMP)
+                ),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NYPA_PLACED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION
+        ));
+
+        context.register(ADD_SAND_FRITILLARIA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.DESERT)
+                ),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SAND_FRITILLARIA_PLACED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION
+        ));
+
+        context.register(ADD_WILD_SOYA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.PLAINS)
+                ),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.WILD_SOYA_PLACED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION
+        ));
+
+        context.register(ADD_KINGDONIA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.STONY_PEAKS),
+                        biomes.getOrThrow(Biomes.JAGGED_PEAKS),
+                        biomes.getOrThrow(Biomes.FROZEN_PEAKS),
+                        biomes.getOrThrow(Biomes.TAIGA),
+                        biomes.getOrThrow(Biomes.FOREST)
+                ),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.KINGDONIA_PLACED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION
+        ));
+
+        // Dendrobium - 在森林生物群系中生成
+        context.register(ADD_DENDROBIUM, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.JUNGLE),
+                        biomes.getOrThrow(Biomes.SPARSE_JUNGLE),
+                        biomes.getOrThrow(Biomes.BAMBOO_JUNGLE),
+                        biomes.getOrThrow(Biomes.DARK_FOREST),
+                        biomes.getOrThrow(Biomes.TAIGA),
+                        biomes.getOrThrow(Biomes.OLD_GROWTH_SPRUCE_TAIGA),
+                        biomes.getOrThrow(Biomes.OLD_GROWTH_PINE_TAIGA),
+                        biomes.getOrThrow(Biomes.STONY_PEAKS)
+                ),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DENDROBIUM_PLACED)),
                 GenerationStep.Decoration.VEGETAL_DECORATION
         ));
 
@@ -137,7 +210,8 @@ public class ModBiomeModifiers {
                 HolderSet.direct(
                         biomes.getOrThrow(Biomes.SAVANNA),
                         biomes.getOrThrow(Biomes.SAVANNA_PLATEAU),
-                        biomes.getOrThrow(Biomes.WINDSWEPT_SAVANNA)
+                        biomes.getOrThrow(Biomes.WINDSWEPT_SAVANNA),
+                        biomes.getOrThrow(Biomes.SPARSE_JUNGLE)
                 ),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.FALSE_LITCHI_TREE_PLACED)),
                 GenerationStep.Decoration.VEGETAL_DECORATION
@@ -157,7 +231,8 @@ public class ModBiomeModifiers {
         context.register(ADD_HONGHE_PAPEDA_TREE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 HolderSet.direct(
                         biomes.getOrThrow(Biomes.SAVANNA),
-                        biomes.getOrThrow(Biomes.SAVANNA_PLATEAU)
+                        biomes.getOrThrow(Biomes.SAVANNA_PLATEAU),
+                        biomes.getOrThrow(Biomes.SPARSE_JUNGLE)
                 ),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HONGHE_PAPEDA_TREE_PLACED)),
                 GenerationStep.Decoration.VEGETAL_DECORATION
@@ -182,5 +257,6 @@ public class ModBiomeModifiers {
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.FEMALE_GINKGO_TREE_PLACED)),
                 GenerationStep.Decoration.VEGETAL_DECORATION
         ));
-    }
-}
+
+
+    }}

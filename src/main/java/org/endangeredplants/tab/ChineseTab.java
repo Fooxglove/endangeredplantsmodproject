@@ -44,7 +44,6 @@ public class ChineseTab {
         output.accept(CyatheaSporeBottle.CYATHEA_SPORE_BOTTLE.get());
         output.accept(CyatheaGametophyte.CYATHEA_GAMETOPHYTE.get());
         output.accept(CyatheaTop.CYATHEA_TOP.get());
-        output.accept(SandFritillariaBlock.SAND_FRITILLARIA_BLOCK.get());
         output.accept(SandFritillariaBulb.SAND_FRITILLARIA_BULB.get());
         output.accept(SandFritillariaBuds.SAND_FRITILLARIA_BUDS.get());
         output.accept(DendrobiumBlock.DENDROBIUM_BLOCK.get());

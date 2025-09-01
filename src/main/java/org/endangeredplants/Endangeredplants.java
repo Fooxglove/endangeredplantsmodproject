@@ -8,6 +8,9 @@ import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.extensions.IForgeMenuType;
@@ -22,6 +25,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
+import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.endangeredplants.block.*;
@@ -30,11 +34,13 @@ import org.endangeredplants.effect.HalluEffect;
 import org.endangeredplants.entity.FallingPapeda;
 import org.endangeredplants.item.*;
 import org.endangeredplants.tab.ChineseTab;
+
 import org.endangeredplants.worldgen.ModConfiguredFeatures;
-import org.endangeredplants.worldgen.tree.HongheGrower;
+
+
 import org.slf4j.Logger;
 
-import static org.endangeredplants.block.SpecimenPresser.MENUS;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Endangeredplants.MODID)
@@ -149,6 +155,7 @@ public class Endangeredplants {
 
 
 
+
         if (FMLEnvironment.dist == Dist.CLIENT) {
             ModClient.register(modEventBus);
         }
@@ -177,6 +184,8 @@ public class Endangeredplants {
 
 
 
+
+
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
@@ -187,10 +196,7 @@ public class Endangeredplants {
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
-        event.enqueueWork(() -> {
-            System.out.println("Common setup - ensuring configured features are available");
-            // This ensures registration happens at the right time
-        });
+
 
     }
 

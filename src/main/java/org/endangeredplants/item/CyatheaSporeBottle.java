@@ -1,11 +1,14 @@
 package org.endangeredplants.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +30,7 @@ public class CyatheaSporeBottle {
             Level level = context.getLevel();
             BlockPos pos = context.getClickedPos();
             BlockPos abovePos = pos.above();
+            Player player = context.getPlayer();
 
             // 只允许在苔藓块上使用
             if (level.getBlockState(pos).is(Blocks.MOSS_BLOCK)) {
@@ -37,11 +41,15 @@ public class CyatheaSporeBottle {
                             3); // 使用flag 3触发方块更新和客户端同步
 
                     // 消耗物品（创造模式除外）
-                    if (!context.getPlayer().isCreative()) {
+                    if (player != null && !player.isCreative()) {
                         context.getItemInHand().shrink(1);
+
+                        // 给予玩家玻璃瓶
+                        if (!player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE))) {
+                            // 如果库存已满，掉落玻璃瓶
+                            player.drop(new ItemStack(Items.GLASS_BOTTLE), false);
+                        }
                     }
-
-
 
                     return InteractionResult.sidedSuccess(level.isClientSide());
                 }
@@ -57,6 +65,7 @@ public class CyatheaSporeBottle {
             () -> new CyatheaSporeBottleItem(
                     new Item.Properties()
                             .stacksTo(16) // 限制堆叠数量为16
+                            .craftRemainder(Items.GLASS_BOTTLE) // 添加制作剩余物
             )
     );
 

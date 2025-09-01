@@ -1,0 +1,183 @@
+{
+  "feature": "endangeredplants:dendrobium",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 30
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 150
+        },
+        "min_inclusive": {
+          "absolute": 64
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:vine"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:cave_air"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:jungle_log",
+                  "minecraft:dark_oak_log",
+                  "minecraft:stone",
+                  "minecraft:cobblestone",
+                  "minecraft:mossy_cobblestone",
+                  "minecraft:granite",
+                  "minecraft:andesite"
+                ],
+                "offset": [
+                  0,
+                  0,
+                  -1
+                ]
+              },
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  0,
+                  -1
+                ],
+                "tag": "minecraft:logs"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:jungle_log",
+                  "minecraft:dark_oak_log",
+                  "minecraft:stone",
+                  "minecraft:cobblestone",
+                  "minecraft:mossy_cobblestone",
+                  "minecraft:granite",
+                  "minecraft:andesite"
+                ],
+                "offset": [
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  0,
+                  1
+                ],
+                "tag": "minecraft:logs"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:jungle_log",
+                  "minecraft:dark_oak_log",
+                  "minecraft:stone",
+                  "minecraft:cobblestone",
+                  "minecraft:mossy_cobblestone",
+                  "minecraft:granite",
+                  "minecraft:andesite"
+                ],
+                "offset": [
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  1,
+                  0,
+                  0
+                ],
+                "tag": "minecraft:logs"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:jungle_log",
+                  "minecraft:dark_oak_log",
+                  "minecraft:stone",
+                  "minecraft:cobblestone",
+                  "minecraft:mossy_cobblestone",
+                  "minecraft:granite",
+                  "minecraft:andesite"
+                ],
+                "offset": [
+                  -1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  -1,
+                  0,
+                  0
+                ],
+                "tag": "minecraft:logs"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

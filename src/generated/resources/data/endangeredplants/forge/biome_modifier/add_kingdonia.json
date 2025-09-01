@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:stony_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:taiga",
+    "minecraft:forest"
+  ],
+  "features": "endangeredplants:kingdonia_placed",
+  "step": "vegetal_decoration"
+}

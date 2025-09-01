@@ -3,7 +3,7 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 10
+      "chance": 50
     },
     {
       "type": "minecraft:in_square"
@@ -26,8 +26,25 @@
       }
     },
     {
-      "type": "minecraft:count",
-      "count": 20
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:podzol",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:sand",
+          "minecraft:gravel",
+          "minecraft:stone"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
     },
     {
       "type": "minecraft:biome"

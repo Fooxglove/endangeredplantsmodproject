@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "endangeredplants:dendrobiumblock",
+        "Properties": {
+          "age": "0",
+          "blooming": "false",
+          "east": "false",
+          "north": "true",
+          "south": "false",
+          "west": "false"
+        }
+      }
+    }
+  }
+}

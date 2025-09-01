@@ -7,6 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -39,8 +40,18 @@ public class Paclitaxel {
                         entity.removeEffect(MobEffects.WITHER);
                     }
 
-                    // 调用父类方法处理基础逻辑（包括返回玻璃瓶）
-                    return super.finishUsingItem(stack, level, entity);
+                    // 处理玻璃瓶返还
+                    ItemStack resultStack = super.finishUsingItem(stack, level, entity);
+
+                    if (entity instanceof Player player && !player.getAbilities().instabuild) {
+                        // 检查是否应该将玻璃瓶添加到库存或掉落
+                        if (!player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE))) {
+                            // 如果库存已满，掉落玻璃瓶
+                            player.drop(new ItemStack(Items.GLASS_BOTTLE), false);
+                        }
+                    }
+
+                    return resultStack;
                 }
             });
 

@@ -2,7 +2,6 @@
   "type": "forge:add_features",
   "biomes": [
     "minecraft:beach",
-    "minecraft:stony_shore",
     "minecraft:snowy_beach"
   ],
   "features": "endangeredplants:glehnia_placed",
